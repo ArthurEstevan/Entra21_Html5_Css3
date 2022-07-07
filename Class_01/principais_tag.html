@@ -6,9 +6,34 @@
     <title>Front-end</title>
 </head>
 
+<style>
+    .editando a:link,
+    .editando a:visited {
+
+        background-color: #5225c4;
+        width: 10%;
+        border: 3px solid;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2ch;
+        font-family: 'Lucida Sans';
+    }
+
+    .editando a:hover,
+    .editando a:active {
+
+        background-color: red;
+    }
+</style>
+
 <body>
 
-    <a href="/index.html">Voltar</a>
+    <div class="editando">
+        <a href="/index.html">Voltar</a>
+    </div>
+
 
     <br /><br /><br />
     <!--Assim ele pulará linhas, de "break". Usando o "/" para finalizar o comando-->
@@ -59,13 +84,14 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
         alt="Uma imagem vale mais do que mil palavras" title="Passou o mouse né?" width="100px" height="100px" />
     <!--Não importa a ordem que for colocado os valores-->
-    <img src="/img/transferir.png" alt="Era para ser uma imagem do JS" width="100px" height="100px" title="Java, talvez">
-   <ol>
-       <li>Requisitos
-           <ol>
-               <li>Fazer uma nova página HTML chamada cv.html</li>
-               <li>Heather maior para o seu nome</li>
-               <li>Inserir uma imagem fictícia ou sua (pode ser da internet ou local)</li>
+    <img src="/img/transferir.png" alt="Era para ser uma imagem do JS" width="100px" height="100px"
+        title="Java, talvez">
+    <ol>
+        <li>Requisitos
+            <ol>
+                <li>Fazer uma nova página HTML chamada cv.html</li>
+                <li>Heather maior para o seu nome</li>
+                <li>Inserir uma imagem fictícia ou sua (pode ser da internet ou local)</li>
                 <li>Dividir as seções do seu currículo com listas não ordenadas (ul)</li>
                 <li>Quando houver necessidade utilizar listas ordenadas (ol) Exemplo: Experiências Profissionais</li>
             </ol>
