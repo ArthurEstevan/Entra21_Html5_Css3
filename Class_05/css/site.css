@@ -1,0 +1,92 @@
+
+.grid {
+
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid white;
+    gap: 4px;
+}
+
+.header {
+
+    grid-area: header;
+    padding: 4px;
+    background-color: #AC40E6;
+}
+
+.content {
+    
+    grid-area: content;
+    padding: 8px;
+    background-image: linear-gradient(#AC40E6, #833AFC, #4B38F2);
+    height: 93vh;
+}
+
+.sidenav {
+
+    grid-area: sidenav;
+    height: 100vh;
+    background-image: linear-gradient(#AC40E6, #833AFC, #4B38F2);
+}
+
+.footer {
+    
+    grid-area: footer;
+    background-color: #4B38F2;
+    
+}
+
+footer::after {
+    font-size: medium;
+    content: "© Copyright 2022 arthurestevan.github.io  - Todos os direitos reservados";
+}
+
+.grid-template {
+
+    grid-template-areas: 
+        "header header header header header header header header header header header header"
+        "sidenav sidenav content content content content content content content content content content"
+        "sidenav sidenav footer footer footer footer footer footer footer footer footer footer";
+        
+}
+
+.item {
+
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+
+header img {
+
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+
+}
+
+nav ul {
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+
+    margin: 2px;
+    border: 1px solid white;
+    background-color: #AC40E6;
+}
+
+nav ul li:hover {
+
+    background-color: #833AFC;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.selecionado {
+    background-color: #4B38F2;
+}
