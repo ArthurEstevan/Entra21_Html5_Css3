@@ -1,0 +1,19 @@
+a:link,
+a:visited {
+
+    background-color: #5225c4;
+    width: 10%;
+    border: 3px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2ch;
+    font-family: 'Lucida Sans';
+}
+
+a:hover,
+a:active {
+
+    background-color: red;
+}

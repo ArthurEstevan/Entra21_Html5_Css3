@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/back.css">
+    <title>Tabelas</title>
+
+    <style>
+        .table {
+            background-color: yellowgreen;
+            border-color: black;
+            width: 500px;
+            height: 300px;
+        }
+
+        .div-td {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="/index.html">Voltar</a>
+
+    <hr>
+
+    <h1 style="text-align: center;">Tabelas</h2>
+
+
+        <h2>Montando Tabelas</h2>
+
+        <p>&nbsp;&nbsp;Aqui temos a formação de uma tabela.</p>
+
+        <ul>
+            <li>
+                <h4>Table</h4>
+                <ul>
+                    <li>Thead
+                        <ul>
+                            <li>th - Coluna de Cabeçalho</li>
+                        </ul>
+                    </li>
+
+                    <li>tbody
+                        <ul>
+                            <li>tr - Linha da Tabela</li>
+                            <ul>
+                                <li>td - Coluna de linha, pode ter varias, sempre com a mesma quantidade</li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>tfoot - Tem a mesma estrutura do tbody onde é opcional a escrita deste seletor</li>
+                </ul>
+            </li>
+        </ul>   
+
+        <hr>
+
+        <h2>Exemplos</h2>
+
+        <p>&nbsp;&nbsp;No exemplo número 1 temos uma tebela simples, já no exemplo número 2 temos uma tabela um pouco mais avançada:</p>
+
+        <h2>Exemplo - 01</h2>
+
+        <table border="1">
+
+            <thead>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Arthur</td>
+                    <td>19</td>
+                    <td>São João Batista</td>
+                </tr>
+
+                <tr>
+                    <td>Erick</td>
+                    <td>16</td>
+                    <td>Mafra</td>
+                </tr>
+
+                <tr>
+                    <td>Maria</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>Exemplo - 02</h2>
+
+        <table class="table" border="1">
+
+            <caption style="font-size: larger;"><strong><i>Principais Feriados - 2022</i></strong></caption>
+
+            <thead style="text-align: center;">
+                <th rowspan="1"></th>
+                <th style="font-size: larger;"><strong>Dia</strong></th>
+                <th style="font-size: larger;"><strong>Mês</strong></th>
+                <th style="font-size: larger;"><strong>Ano</strong></th>
+            </thead>
+
+            <tbody style="text-align: center;">
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Dia da
+                        Confraternização Universal</td>
+                    <td>01</td>
+                    <td>Janeiro</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Dia de Tiradentes
+                    </td>
+                    <td>21</td>
+                    <td>Abril</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Dia do Trabalho
+                    </td>
+                    <td>01</td>
+                    <td>Maio</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Independência do
+                        Brasil</td>
+                    <td>07</td>
+                    <td>Setembro</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Dia da Padroeira
+                        do
+                        Brasil</td>
+                    <td>12</td>
+                    <td>Outubro</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Finados</td>
+                    <td>02</td>
+                    <td>Novembro</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">Proclamação da
+                        República</td>
+                    <td>15</td>
+                    <td>Novembro</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr class="div-td">
+                    <td style="background-color: yellowgreen !important; text-align: left !important;">25 de Dezembro –
+                        Natal</td>
+                    <td>25</td>
+                    <td>Dezembro</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+
+</html>
