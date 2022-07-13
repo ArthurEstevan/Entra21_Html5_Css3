@@ -1,43 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>I-frame</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/back.css">
+
+    <style>
+
+        .borda {
+            border: 2px solid black;
+            border-radius: 1%;
+        }
+
+        body {
+            background-image: url(/Class_03/Iframe/assets/background.png);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        p {
+            background-color: rgb(93, 164, 93);
+            border: 1px solid black;
+            color: white;
+            font-size: large;
+            padding: 5px;
+        }
+
+        h2 {
+            background-color: rgb(93, 164, 93);
+            border: 1px solid black;
+            color: white; 
+            padding: 5px;
+            width: 360px;
+        }
+
+        h1 {
+            background-color: rgb(93, 164, 93);
+            border: 1px solid black;
+            color: white; 
+            padding: 5px;
+            text-align: center !important;
+            width: 360px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
 </head>
 
-<style>
-    .editando a:link,
-    .editando a:visited {
+<body class="container">
 
-        background-color: #5225c4;
-        width: 10%;
-        border: 3px solid;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2ch;
-        font-family: 'Lucida Sans';
-    }
-
-    .editando a:hover,
-    .editando a:active {
-
-        background-color: red;
-    }
-</style>
-
-<body>
-
-    <div class="editando">
         <a href="/index.html">Voltar</a>
-    </div>
+        
+        <hr>
+        
+        <h1 class="text-center">I-frame HTML</h1>
+        
+        <h2>Imagens em I-frame</h2>
+        
+        <p>Note que as imagens abaixo estão cercadas envolta de um quadrado, onde cada uma tem sua largura e altura. <br>   
+            &nbsp;Também podemos fazer isso com links assim exibindo uma página dentro de outra página.
+        </p>
+        
+        <hr>
+        
+        <h2>Exemplos com Imagens</h2>
+        
+        <p >Abaixo podemos ver melhor isso funcionando:</p>
+        
+        <iframe class="borda" src="/Class_03/Iframe/assets/Ursos.jpg" frameborder="1" width="720px" height="377px"></iframe>
+        
+        <iframe class="borda" src="/Class_03/Iframe/assets/Oshit.jpg" frameborder="1" width="606px" height="350px"></iframe>
+        
+        <iframe class="borda" src="/Class_03/Iframe/assets/windows.jpg" frameborder="1" width="736px" height="414px"></iframe>
+        
+        <iframe class="borda" src="/Class_03/Iframe/assets/RickMorty.jpg" frameborder="1" width="562px" height="316px"></iframe>
+        
+        <hr>
+        
+        <h2>Exemplos com Links</h2>
+        
+        <p>Abaixo podemos ver melhor como isso funciona com links:</p>
+        
+        <iframe class="borda" src="https://oliota.com/inicio" frameborder="1" width="100%" height="800px"></iframe>
 
-    <iframe src="/Class_01/Currículo/curriculo.html" frameborder="1" width="30%" height="400px">Currículo</iframe>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
-    <iframe src="https://oliota.com" frameborder="1" width="30%" height="400"></iframe>
-    
 </body>
+
 </html>

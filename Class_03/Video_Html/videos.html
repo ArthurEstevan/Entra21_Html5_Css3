@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/back.css">
     <title>Vídeos</title>
 </head>
 
-<style>
-    .editando a:link,
-    .editando a:visited {
+<body class="container">
 
-        background-color: #5225c4;
-        width: 10%;
-        border: 3px solid;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2ch;
-        font-family: 'Lucida Sans';
-    }
+    <a href="/index.html">Voltar</a>
 
-    .editando a:hover,
-    .editando a:active {
+    <hr>
 
-        background-color: red;
-    }
-</style>
+    <h1 class="text-center">Vídeo em HTML</h1>
 
-<body>
-    
-    <div class="editando">
-        <a href="/index.html">Voltar</a>
-    </div>
+    <h2>Apresentando Vídeo</h2>
 
-    <video controls poster="/img/unnamed.jpg" width="50%" height="500px">
+    <p>Abaixo temos uma das formas de apresentação de um vídeo em sua página HTML:</p>
 
-        <source src="/Class_03/log.oliota.mp4" type="video/mp4">
+    <hr>
+
+    <h2>Vídeo Oliota</h2>
+
+    <p>Temos aqui um vídeo retirado do site do professor -> <a href="https://oliota.com/inicio">Rubem Oliota</a></p>
+
+    <video controls poster="/Class_03/Video_Html/Background_Theme.jpg" width="680px" height="425px">
+
+        <source src="/Class_03/Video/log.oliota.mp4" type="video/mp4">
 
         <object>
 
-            <embed src="/Class_03/log.oliota.mp4" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always">
+            <embed src="/Class_03/Video/log.oliota.mp4" type="application/x-shockwave-flash" allowfullscreen="false"
+                allowscriptaccess="always">
 
-                formato não suportado
+            formato não suportado
 
         </object>
 
     </video>
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+.img img{
+    border: 4px solid;
+    width: 242px;
+    height: 242px;
+}
+
+.contatos {
+    border:3px solid black;
+    background-color: rgb(165, 98, 228);
+    text-align: center;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profissional p {
+    text-align: left;
+    padding-left: 50ch;
+}
+
+ul li {
+    text-align: left !important;
+    font-size: 2ch;
+    line-height: 3ch;
+}
+
+ul {
+    padding-left: 50ch;
+}
+
+ .links a:link, a:visited {
+    background-color: #f44336;
+    width: 10ch;
+    height: auto;
+    border: 3px solid;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3ch;
+    font-family: 'Lucida Sans';
+}
+
+.links a:hover, a:active{
+    background-color: red;
+}
+
