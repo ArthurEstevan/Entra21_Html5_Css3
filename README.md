@@ -1,6 +1,6 @@
 # _Entra2️⃣1️⃣ Html5 and Css3_
 
-## _Repository with several exercises in html and css_
+## _Repository with several subjects in html and css_
 
 > _Practical content carried out in the classroom during the Entra21 project._
 >
@@ -10,9 +10,9 @@
 
 ![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
 
-## _Below I will leave a list of exercises_
+## _Below I will leave a list of subjects_
 
-| EXERCISE | STATEMENT |
+| CLASSES | SUBJECTS |
 |---------|---------|
 |Class_01|[Learning the main tags and making a resume](./Class_01/)
 |Class_02|[Learning to make forms, create links and organize tables.](./Class_02/)
