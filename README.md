@@ -30,7 +30,7 @@ Learning first code in Html 'Hello world':
 <p>Hello World</p>
 ```
 
-## 📚 References 
+## 📚 _References_ 
 
 > Sites where I got the exercises, I will also leave repositories to help you do the exercises.
 
