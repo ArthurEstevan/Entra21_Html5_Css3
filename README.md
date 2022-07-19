@@ -20,7 +20,7 @@
 |Class_04|[Structuring our first page in html.](./Class_04/)
 |Class_05|[Structuring our second page in html using different concepts from the first.](./Class_05/)
 |Class_06|[Learning about bootsrap and its functionality within html](./Class_06/)
-|Class_07|[](./Class_07/)
+|Class_07|[Structuring final page with all subjects seen in css, html and bootstrap.](./Class_07/)
 
 ## 🎫 _Bonus_
 
