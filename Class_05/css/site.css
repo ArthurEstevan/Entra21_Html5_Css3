@@ -1,92 +1,98 @@
+ /* Grid */
+ 
+ .grid {
+     display: grid;
+ }
 
-.grid {
+ .grid-template-areas {
+     grid-template-areas:
+         "sidenav sidenav content content content content content content content content content content "
+         "sidenav sidenav content content content content content content content content content content "
+         "sidenav sidenav content content content content content content content content content content "
+ }
 
-    display: grid;
-    margin: 0 auto;
-    border: 1px solid white;
-    gap: 4px;
-}
+ /* Paragrafo */
 
-.header {
+ h4 {
+     display: inline;
+     vertical-align: bottom;
+     color: white;
+     font-size: 1.4rem;
+ }
 
-    grid-area: header;
-    padding: 4px;
-    background-color: #AC40E6;
-}
-
-.content {
-    
-    grid-area: content;
-    padding: 8px;
-    background-image: linear-gradient(#AC40E6, #833AFC, #4B38F2);
-    height: 93vh;
-}
-
-.sidenav {
-
-    grid-area: sidenav;
-    height: 100vh;
-    background-image: linear-gradient(#AC40E6, #833AFC, #4B38F2);
-}
-
-.footer {
-    
-    grid-area: footer;
-    background-color: #4B38F2;
-    
-}
-
-footer::after {
-    font-size: medium;
-    content: "© Copyright 2022 arthurestevan.github.io  - Todos os direitos reservados";
-}
-
-.grid-template {
-
-    grid-template-areas: 
-        "header header header header header header header header header header header header"
-        "sidenav sidenav content content content content content content content content content content"
-        "sidenav sidenav footer footer footer footer footer footer footer footer footer footer";
-        
-}
-
-.item {
-
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
-}
-
-header img {
-
-    width: 22px;
-    height: 22px;
-    padding: 0px;
-
-}
-
-nav ul {
-
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-nav ul li {
-
-    margin: 2px;
-    border: 1px solid white;
-    background-color: #AC40E6;
-}
-
-nav ul li:hover {
-
-    background-color: #833AFC;
-}
-
-nav a{
+ h4 a {
     text-decoration: none;
-    color: white;
+ }
+
+ h5 {
+    font-size: 1rem;
+    padding-top: 3px;
+ }
+
+ /* Main */
+
+ .content {
+     grid-area: content;
+     padding-top: 10px;
+     padding-left: 10px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 10vh;
+     margin-bottom: 5vh;
+     background-image: linear-gradient(#FFD786, #DAA052);
+     height: 85vh;
+     border-radius: 10px;
+     text-align: center;
+ }
+
+ /* Nav Bar */
+
+ .sidenav {
+     grid-area: sidenav;
+     height: 100vh;
+     background-image: linear-gradient(#FFD786, #DAA052);
+ }
+
+ .item {
+     font-size: clamp(1em, 1em + 1vw, 1.5em);
+     font-family: 'Roboto', sans-serif;
+ }
+
+ /* Nav Bar */
+
+ nav ul {
+     list-style: none;
+ }
+
+ nav ul li {
+     list-style: none;
+     padding-bottom: 10px;
+ }
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
 }
 
-.selecionado {
-    background-color: #4B38F2;
+a:hover {
+    color: blue;
 }
+
+nav ul li h4{
+   
+    padding-right: 3ch;
+}
+
+ /* Footer */
+
+ .footer {
+     grid-area: footer;
+ }
+
+ footer::after {
+     content: "© Copyright 2022 SeuSite.com.br  - Todos os direitos reservados";
+ }
+
+ .selecionado {
+     background-color: none;
+ }

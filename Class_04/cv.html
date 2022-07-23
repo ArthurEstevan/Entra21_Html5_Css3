@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -6,81 +5,127 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubem Oliota - CV</title>
+
+    <title>Resume | Home</title>
+
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/site.css">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <style>
         html {
-            background-color: lightgreen;
+            background-color: lightsalmon;
+        }
+
+        button {
+            width: 200px;
+            height: 33px;
+            background-color: bisque;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darksalmon;
+            border: 1px solid white;
+        }
+
+        nav {
+            background-color: darksalmon;
+        }
+
+        main {
+            background-color: darksalmon;
+            border-radius: 10px;
             padding: 20px;
         }
-        nav a{
-            color: white;
-        }
-
-        
-        nav a:hover{
-            color: black;
-        }
-
-        nav ul {
-            background-color: darkgreen;
-        }
-
-        nav ul li:hover {
-            background-color: lightgreen;
-        }
     </style>
+
 </head>
 
 <body>
 
-    <header valign="top">
-        <img src="img/job.png" alt="" width="32px" height="32px">
-        <h1>CV</h1>
+    <header class="mb-3 text-center">
+        <img src="img/welcome.png" alt="" width="32px" height="32px">
+        <h4>Início </h4>
     </header>
 
     <nav>
         <ul>
-            <li><a href="/Class_04/index.html">Início</a></li>
-            <li><a href="/Class_04/cv.html">CV</a> </li>
-            <li><a href="/Class_04/contato.html">Contato</a> </li>
+            <li> <a href="/index.html"> <button class="float-start" type="button">Voltar</button> </a> </li>
+
+            <li> <a href="/Class_04/index.html"> <button type="button">Home</button> </a> </li>
+
+            <li> <a href="/Class_04/cv.html"> <button type="button">Resume</button> </a> </li>
+
+            <li> <a href="/Class_04/contato.html"> <button type="button">Contact</button> </a> </li>
         </ul>
     </nav>
 
+    <br>
+
     <main>
 
-        <h2>Estou buscando por uma oportunidade</h2>
-        <h2>Confira as informações sobre a minhas experiências e capacitações</h2>
+        <img src="./img/cavaleiro-esquerdo.png" style="width: 200px; height: 200px;" class="rounded float-start">
+        <img src="./img/cavaleiro-direito.png" style="width: 200px; height: 200px;" class="rounded float-end">
 
-        <hr>
-        <h3>Dados pessoais</h3>
-        <p><b>Nome:</b>Rubem Duarte Oliota</p>
-        <p><b>Idade:</b>32</p>
-        <p><b>Estado civil:</b>Casado</p>
+        <h1 class="text-center">Information About Me</h1>
 
-        <hr>
-        <h3>Grupo</h3>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
-
-        <hr>
-        <h3>Grupo</h3>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
-        <p><b>campo:</b>valor</p>
+        <p class="font-monospace text-center" style="font-size: 1.5rem;">"Quanto maior o artista, maiores são os momentos de dúvida. Confiança inabalável é algo garantido para os menos talentosos, como um prêmio de consolação" – Robert Hughes, crítico de arte</p>
 
 
-
-
-
+        <table class="table table-dark table-striped table-bordered table-rover">
+            <tablehead>
+                <th>Empresa</th>
+                <th>Mês/Ano</th>
+                <th>Cargo</th>
+                <th>Descrição</th>
+                <tablebody>
+                    <tr>
+                        <td>Suzana Santos</td>
+                        <td>10/2020</td>
+                        <td>Auxiliar de Modelagem</td>
+                        <td>
+                            <p>Auxilio em serviços geral de modelagem</p>
+                            <p>Tiro consumo dos materias utilizando para construção do calçado</p>
+                            <p>Tiro ordens de compra referente ao valor de navalhas de aço</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Componarte</td>
+                        <td>03/2020</td>
+                        <td>Auxiliar de Escritorio em Geral</td>
+                        <td>
+                            <p>Auxiliava com serviços geral de material utilizado em cartelas</p>
+                            <p>Fazia a construção de cartelas de cores aparesentas aos representantes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Koch Hipermercado</td>
+                        <td>01/2019</td>
+                        <td>Operador de Caixa</td>
+                        <td>
+                            <p>Operador de caixa em uma função chamada operador auxiliar</p>
+                        </td>
+                    </tr>
+                </tablebody>
+            </tablehead>
+        </table>
     </main>
 
-    <footer> 
+    <footer>
         <hr>
     </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

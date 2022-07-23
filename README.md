@@ -1,4 +1,4 @@
-# Entra![](./entra21numero.png) Html and Css ![](./arquivo-css.png)![](./html.png)
+# Entra![](icons/entra21numero.png) Html and Css ![](/icons/html.png)![](icons/arquivo-css.png)
 
 ## _Repository with several subjects in html and css_
 

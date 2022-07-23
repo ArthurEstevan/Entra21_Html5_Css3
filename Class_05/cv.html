@@ -1,70 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur | Currículo </title>
-    <link rel="shortcut icon" href="/img/job.png" type="image/png">
-    <link rel="stylesheet" href="/css/site.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <style>
-        .entra21 {
-            grid-area: entra21;
-        }
+  <title>Home | Resume</title>
 
-        .complementar {
-            grid-area: complementar;
-        }
+  <!-- Fonts Google -->
 
-        .grid-academico {
-            display: grid;
-            margin: 0 auto;
-            border: 1px solid white;
-            gap: 4px;
-            grid-template-areas:
-                "entra21 complementar";
-        }
-    </style> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Css Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/site.css" />
+
 </head>
 
-<body class="grid grid-template">
+<body class="grid grid-template-areas">
 
-    <header class="item header">
-        <img src="/img/job.png" alt="job">
-        Curriculo
-    </header>
+  <aside class="item sidenav"> 
 
-    <aside class="item sidenav">
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li class="selecionado"><a href="/cv.html">Currículo</a></li>
-                <li><a href="/ct.html">Contato</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <nav>
+      <ul>
 
-    <main class="item content">
-        Minhas informações academicas
-        <!-- <section class="grid-academico">
-            <section class="item entra21">
-                <ul>Entra21 - Assuntos
-                    <li>Meto</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-            <section class="item complementar">texto2</section>
+        <br>
+        
+        <li><img src="./img/profile.png"><h4>Arthur Estevan Vargas</h4></li>
+        
+        <br>
 
-        </section> -->
-    </main>
+        <li><a href="./index.html"><img src="./img/home.png">&nbsp;&nbsp;Home</a></li>
+        <li><a href="./cv.html"><img src="./img/curriculo-e-cv.png">&nbsp;&nbsp;Resume</a></li>
+        <li><a href="./contato.html"><img src="./img/contato.png">&nbsp;&nbsp;Contact</a></li>
 
-    <footer class="footer">
-    </footer>
+      </ul>
+    </nav>
+
+  </aside>
+
+
+  <main class="item content" style="vertical-align: text-bottom;">
+
+    <img src="./img/profile.png"> <br>
+    <h4>Arthur Estevan Vargas</h4>
+
+    <h5>Inglês Intermediário / Auxiliar de Modelagem / Java Junior</h5>
+
+    <h4>
+      <img src="./img/linkedin.png">
+      <a href="https://www.linkedin.com/in/arthur-estevan-vargas-189208223/" target="_blank">Linkedin |</a>
+      
+      <img src="./img/github.png">
+      <a href="https://github.com/ArthurEstevan" target="_blank">GitHub |</a>
+      
+      <img src="./img/instagram.png">
+      <a href="https://www.instagram.com/arthur.estevan/" target="_blank">Instagram |</a>
+
+      <img src="./img/gmail.png">
+      <a href="https://mail.google.com/mail/u/0/?fs=1&to=arthur.estevan01@gmail.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Rubem+Tudo+bem?&tf=cm" target="_blank">Email</a>
+      
+    </h4>
+
+    <div class="row mt-5">
+        <div class="col"></div>
+        <div class="col-10 bg-white rounded">
+  
+          <h1 class="font-monospace text-center mt-5">Alguns Pensamentos</h1>
+  
+          <br>
+  
+          <p class="font-monospace text-center" style="font-size: 1.4rem;">"As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente." - Zig Ziglar</p>
+  
+          <br>
+  
+          <p class="font-monospace text-center" style="font-size: 1.4rem;">"Motivação é a arte de fazer as pessoas fazerem o que você quer que elas façam porque elas o querem fazer." - Dwight Eisenhower</p>
+          
+          <br>
+  
+          <p class="font-monospace text-center" style="font-size: 1.4rem;">"Toda ação humana, quer se torne positiva ou negativa, precisa depender de motivação." - Dalai Lama</p>
+  
+          <br><br>
+        </div>
+        <div class="col"></div> 
+      </div>
+    
+  </main>
 
 </body>
 
