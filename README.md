@@ -36,7 +36,7 @@ Learning first code in Html 'Hello world':
 
 1. [Simples exercises in HTML](https://paginas.fe.up.pt/~ci07041/scc/trabalhos.html)
 2. [Difficult exercises in HTML](https://sites.google.com/site/desenvolvimentowebi20121/material-de-apoio/listas-de-exercicios)
-3. [My help repository](https://github.com/ArthurEstevan/Entra21_Html5_Css3)
+3. [My help repository](https://github.com/ArthurEstevan/Exercise_in_HTML)
 4. [Teacher help repository](https://github.com/oliota/entra21-aulas-frontend-html5-css3)
 5. [Learning HTML](http://www.clem.ufba.br/tuts/html/c22.htm)
 6. [Learning CSS](https://www.w3schools.com/css/default.asp)
