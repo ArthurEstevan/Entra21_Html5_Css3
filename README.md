@@ -19,7 +19,7 @@
 |Class_03|[Learning to insert audio and video in html, also iframe creation and starting css studies.](./Class_03/)
 |Class_04|[Structuring our first page in html.](./Class_04/)
 |Class_05|[Structuring our second page in html using different concepts from the first.](./Class_05/)
-|Class_07|[Structuring final page with all subjects seen in css, html and bootstrap.](./Class_07/)
+|Class_06|[Structuring final page with all subjects seen in css, html and bootstrap.](./Class_06/)
 
 ## 🎫 _Bonus_
 
